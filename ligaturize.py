@@ -248,7 +248,7 @@ def parse_args():
              " all copied character glyphs; a value of 2 effectively disables"
              " character glyph scaling.")
     parser.add_argument("--prefix",
-        type=str, default="Liga ",
+        type=str, default="FireCode+ ",
         help="String to prefix the name of the generated font with.")
     return parser.parse_args()
 
