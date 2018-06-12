@@ -34,7 +34,10 @@ def get_ligature_source(fontname):
     # it, and 'Regular' otherwise.
     if 'Bold' in fontname:
         return 'fira/FiraCode-Bold.otf'
-    return 'fira/FiraCode-Regular.otf'
+    elif 'Light' in fontname:
+        return 'fira/FiraCode-Light.otf'
+    else:
+        return 'fira/FiraCode-Regular.otf'
 
 class LigatureCreator(object):
 
